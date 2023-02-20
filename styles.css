@@ -1,0 +1,33 @@
+#header {
+    background-color: #1a1a1a;
+    padding-left: 116px;
+    padding-right: 116px;
+}
+
+#logo-container span {
+    margin-left: 10px;
+}
+
+#cover{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Sonic-cover-image{
+    margin-left: 50%;
+}
+
+#Sonic-logo{
+    margin-right: 50%;
+}
+
+#Sonic-lines{
+    margin-left: 50%;
+}
+
+#his-world{
+    margin-top: 10%;
+}
