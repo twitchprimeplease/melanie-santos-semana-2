@@ -1,3 +1,7 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
 #header {
     background-color: #1a1a1a;
     padding-left: 116px;
@@ -20,14 +24,59 @@
     margin-left: 50%;
 }
 
+#his-world-images{
+    display: flex;
+}
+
+#his-world-images img{
+    border-radius: 0px 72px 72px 0px;
+}
+
 #Sonic-logo{
     margin-right: 50%;
 }
 
 #Sonic-lines{
-    margin-left: 50%;
+    margin-left: 20%;
 }
 
 #his-world{
     margin-top: 10%;
+}
+
+#his-world-text{
+    margin-right: 10%;
+}
+
+#Sonic-classic{
+    width: 391px;
+    height: 391px;
+    margin-top: 150px;
+    margin-left: 500px;
+    
+}
+
+#his-powers-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card{
+    background-color: #07489F;
+    color: whitesmoke;
+    border-radius: 23px;
+}
+
+.card .btn-primary {
+    background-color: whitesmoke;
+    color:black;
+
+}
+
+* section{
+    margin-left: 100px;
+    margin-top: 150px;
 }

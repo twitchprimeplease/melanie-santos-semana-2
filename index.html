@@ -7,7 +7,11 @@
     <title>Sonic the Hedgehog</title>
     <link  rel="icon"   href="./images/image 2.png" type="image/png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -30,34 +34,70 @@
                 <img src="./images/Frame 14.png" alt="" class="position-absolute" id="Sonic-lines">
                 <img src="./images/image 3.png" alt="" class="position-absolute" id="Sonic-cover-image">
                 <img src="./images/image 4.png" alt="" class="position-absolute" id="Sonic-logo">
-                
-                
-            
         </section>
 
-        <section id="his-world">
-            <div class="d-flex flex-row">
+        <section id="his-world" class="row justify-content-between">
+            <div class="col-4" id="his-world-images">
                 <img src="./images/image 1.png" alt="">
-                <div>
+                <img src="./images/image 8.png" alt="" class="position-absolute" id="Sonic-classic">
+            </div>
+                <div class="col-3" id="his-world-text">
                     <h3>His World</h3>
                     <p>
                         Sonic lives in a planet called Mobius, specifically  in a zone called Green Hills. Since Sonic is an adventurer and the greatest hero, most of it’s time is spend in different cities and landscapes. But home will always be home. And all of his friends will always be there wherever he goes.
                     </p>
+                    <button type="button" class="btn btn-primary">Tell me more!</button>
                 </div>
         </section>
-        <!-- <div id="His-Words" class="container">
-            <div class="d-flex flex-row">
-                <img src="./images/image 1.png" alt="">
-                <div>
-                    <h3>His World</h3>
-                    <p>
-                        Sonic lives in a planet called Mobius, specifically  in a zone called Green Hills. Since Sonic is an adventurer and the greatest hero, most of it’s time is spend in different cities and landscapes. But home will always be home. And all of his friends will always be there wherever he goes.
-                    </p>
-                </div>
-            </div> -->
 
-        </div>
+        <section >
+            <h3>His Powers</h3>
+            <div id="his-powers-cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/image 5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Speed</h5>
+                        <p class="card-text">This is Sonic signature. As far as we know, Sonic can travel at the speed of sound.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                    <img src="./images/image 6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Sonic</h5>
+                        <p class="card-text">When the 7 caos esmeralds gather and the situation needs him, he will appear.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                    </div>
+    
+                    <div class="card" style="width: 18rem;">
+                    <img src="./images/image 7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Electricity</h5>
+                        <p class="card-text">You can only see this one in the movies. Altough, it is better that way...</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
     </main>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2023 SEGA, Sonic Team</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
+        
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">His World</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">His Powers</a></li>
+
+                </ul>
+            </footer>
+        </div>
     
 </body>
 </html>
